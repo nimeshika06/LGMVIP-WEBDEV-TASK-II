@@ -1,0 +1,83 @@
+.navbar {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  font-size:30px;
+  text-align: center;
+  background-color: #808080;
+  height: 40px;
+  margin-left: 0px;
+}
+a{
+  text-decoration:none;
+  color:black;
+}
+a:hover{
+  color:chocolate;
+}
+.App{
+  background-image: url("https://data.whicdn.com/images/356700072/original.jpg?t=1625246125");
+}
+
+
+.one{
+  text-align: center;
+}
+h1{
+  text-align:center;
+  margin-top:40px;
+  font-size:40px;
+  font-family:'Times New Roman', Times, serif;
+  color:lightseagreen;
+  text-decoration: underline;
+}
+.image{
+    border-radius: 50%;
+    border: 2px solid black;
+
+}
+.btn{
+  background-color:darksalmon;
+  color:black;
+}
+.btn:hover {
+  background-color: white;
+  color:gold;
+}
+.three{
+  width: 350px;
+  box-Sizing: "border-box";
+  padding: 50px;
+  margin:20px;
+  text-align:center;    
+  background-color: seashell;
+  border-radius: 10px;
+  border: 2px solid transparent black;
+  transform: scale(1);
+  box-shadow: 0px 15px 30px 0px beige;
+  align-items: center;
+
+}
+.two{
+  margin-left:500px;
+  margin-top:60px;
+  margin-bottom: 0px;
+}
+
+.row {
+  margin: 20px;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.column {
+  float: left;
+  width: 25%;
+  padding: 10 10px;
+  margin: 20px;
+}
+
+
+
